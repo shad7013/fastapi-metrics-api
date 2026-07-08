@@ -52,7 +52,7 @@ async def get_stats(values: str = Query(..., description="Comma-separated list o
     
     # Return the exact JSON structure required by the grader
     return {
-        "email": "your-email@example.com", # Replace this with your actual logged-in email
+        "email": "23f3001074@ds.study.iitm.ac.in", # Replace this with your actual logged-in email
         "count": count,
         "sum": total_sum,
         "min": minimum,
